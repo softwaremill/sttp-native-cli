@@ -8,13 +8,13 @@ Read the [blog article](https://softwaremill.com) for full information about how
 Build with
 
 ```sh
-scala-cli --cli-version nightly --power package --native sttp.scala -o sttp-curl -f
+scala-cli --power package --native sttp.scala -o sttp-curl -f
 ```
 
 or
 
 ```sh
-scala-cli --cli-version nightly --power package --native sttp-ce3.scala -o sttp-ce3 -f
+scala-cli --power package --native sttp-ce3.scala -o sttp-ce3 -f
 ```
 
 for the CE3 version.
